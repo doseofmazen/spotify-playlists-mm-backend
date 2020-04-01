@@ -9,9 +9,9 @@ In development mode, it assumes you are running the frontend on localhost:3000, 
 In order to start developing, register a Spotify Application here:
 https://developer.spotify.com/my-applications
 
-On that page, add http://localhost:8888 as a callback url (don't forget to hit save at the bottom of the page)
+On that page, add http://localhost:8888 as a callback url.
 
-Write the below commands in your terminal (replacing XXXX AND YYYY with your acutal client id and secret from the page where you registered your application)
+Write the below commands in your terminal.
 
 ```
 export SPOTIFY_CLIENT_ID=XXXX
@@ -23,7 +23,7 @@ Then go to http://localhost:8888/login in your browser. This will initiate the l
 
 ## Deploying to production
 
-This template is indended to be deployed on Heroku. After installing the heroku CLI tools you can run the below commands in the same directory as server.js(replacing abc123, cba456, mybackend and myfrontend with your actual stuff - the below example assume that you already have your frontend running on http://myfrontend.herokuapp.com.
+This is indended to be deployed on Heroku. After installing the heroku CLI tools you can run the below commands in the same directory as server.js(replacing abc123, cba456, mybackend and myfrontend with your actual stuff - the below example assume that you already have your frontend running on http://myfrontend.herokuapp.com.
 
 ```
 heroku create mybackend
