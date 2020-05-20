@@ -22,3 +22,6 @@ jobs:
           node-version: ${{ matrix.node-version }}
       - run: npm ci
       - run: npm run build --if-present
+
+- name: GitHub Action for package.json update.
+  uses: taichi/actions-package-update@v0.5.0
