@@ -3,3 +3,4 @@
 /.vscode
 /.pnp
 .pnp.js
+.eslintrc
