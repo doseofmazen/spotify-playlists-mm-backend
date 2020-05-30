@@ -28,7 +28,7 @@ app.get("/callback", function (req, res) {
     headers: {
       Authorization:
         "Basic " +
-        new Buffer(
+        Buffer.from(
           process.env.SPOTIFY_CLIENT_ID +
             ":" +
             process.env.SPOTIFY_CLIENT_SECRET
